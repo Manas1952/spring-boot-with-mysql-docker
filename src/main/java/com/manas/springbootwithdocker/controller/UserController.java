@@ -1,4 +1,4 @@
-package com.manas.springbootwithdocker.Controller;
+package com.manas.springbootwithdocker.controller;
 
 import com.manas.springbootwithdocker.model.User;
 import com.manas.springbootwithdocker.service.UserService;
