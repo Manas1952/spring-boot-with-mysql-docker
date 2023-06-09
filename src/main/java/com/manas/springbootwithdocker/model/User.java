@@ -1,10 +1,10 @@
-package com.manas.springbootwithdocker.resource;
+package com.manas.springbootwithdocker.model;
 
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "users")
-public class Users {
+public class User {
 
     @Id
     private Integer id;
@@ -12,7 +12,7 @@ public class Users {
     private Integer salary;
     private String teamName;
 
-    public Users() {
+    public User() {
     }
 
     public Integer getId() {
